@@ -12,5 +12,5 @@ class ConditionModel(db.Model):
     min_room_allotment = db.Column(db.SmallInteger())
     max_room_allotment = db.Column(db.SmallInteger())
     min_occupancy = db.Column(db.SmallInteger())
-    max_occupancy = db.Column(db.SmallInteger())
+    #max_occupancy = db.Column(db.SmallInteger())
     booking_counter = db.Column(db.SmallInteger())
