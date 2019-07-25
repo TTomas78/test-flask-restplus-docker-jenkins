@@ -6,4 +6,4 @@ class test432Model(db.Model):
     __table_args__ = {'schema': 'public'}
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    booking_counter = db.Column(db.SmallInteger()
+    booking_counter = db.Column(db.SmallInteger())
