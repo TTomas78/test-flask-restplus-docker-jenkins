@@ -14,3 +14,4 @@ class ConditionModel(db.Model):
     min_occupancy = db.Column(db.SmallInteger())
     max_occupancy = db.Column(db.SmallInteger())
     booking_counter = db.Column(db.SmallInteger())
+    custom = db.Column(db.String(100))

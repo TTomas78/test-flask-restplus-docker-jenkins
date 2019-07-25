@@ -9,4 +9,4 @@ class ClientModel(db.Model):
     address2 = db.Column(db.String(100))
     zip_code = db.Column(db.String(50))
     city = db.Column(db.String(100))
-    state = db.Column(db.String(100))
+    # state = db.Column(db.String(100))
