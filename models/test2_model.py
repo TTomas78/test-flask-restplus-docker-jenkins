@@ -7,8 +7,8 @@ class ConditionModel(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     cutoff = db.Column(db.SmallInteger())
-    max_lead_time = db.Column(db.SmallInteger())
-    length_of_stay = db.Column(db.SmallInteger())
+#    max_lead_time = db.Column(db.SmallInteger())
+ #   length_of_stay = db.Column(db.SmallInteger())
     min_room_allotment = db.Column(db.SmallInteger())
     max_room_allotment = db.Column(db.SmallInteger())
     min_occupancy = db.Column(db.SmallInteger())
